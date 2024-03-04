@@ -21,7 +21,7 @@ public class RobotRoute {
                 robot.turnRight();
             }
         }
-        if (toY< robot.getY()){
+        if (toY < robot.getY()){
             while (robot.getDirection() != Direction.DOWN){
                 robot.turnLeft();
             }
